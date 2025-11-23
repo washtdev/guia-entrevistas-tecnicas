@@ -4,7 +4,7 @@
 
 ![Screenshot do Projeto](./screenshot.png)
 
-**Acessar:** [COLE AQUI O LINK DO PROJETO](#)
+**Acessar:** [LINK DO PROJETO](https://washtdev.github.io/guia-entrevistas-tecnicas/)
 
 **Resumo**
 - Projeto pensado para centralizar conceitos, algoritmos e estruturas de dados relevantes em entrevistas técnicas.
