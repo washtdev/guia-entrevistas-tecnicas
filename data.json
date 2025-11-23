@@ -1,0 +1,521 @@
+[
+  {
+    "nome": "Análise Assintótica",
+    "dificuldade": "Médio",
+    "categoria": "Conceito",
+    "prerequisitos": "Funções e Logaritmos",
+    "definicao": "https://pt.wikipedia.org/wiki/An%C3%A1lise_assint%C3%B3tica",
+    "aulas": [
+      "https://youtu.be/WXI3xX90k0U",
+      "https://www.ime.usp.br/~pf/analise_de_algoritmos/aulas/Oh.html",
+      "https://pt.khanacademy.org/computing/computer-science/algorithms/asymptotic-notation/a/asymptotic-notation"
+    ],
+    "exercicios": [],
+    "descricao": "A Análise Assintótica é a ferramenta matemática que mede o desempenho (tempo ou espaço) de um algoritmo, focando em sua taxa de crescimento conforme o tamanho da entrada ($n$) se torna muito grande (assintótico). É usada para classificar algoritmos pela sua ordem de complexidade (Ex: O(n), O(n^2)).",
+    "tags": ["tempo", "análise", "análise de algoritmos", "análise assintótica"]
+  },
+  {
+    "nome": "Two Pointers",
+    "dificuldade": "Médio",
+    "categoria": "Conceito",
+    "prerequisitos": "Array",
+    "definicao": "https://www.geeksforgeeks.org/dsa/two-pointers-technique/",
+    "aulas": [
+      "https://noic.com.br/materiais-informatica/ideias/ideia-04/",
+      "https://www.linkedin.com/pulse/o-que-%C3%A9-t%C3%A9cnica-two-pointer-jo%C3%A3o-benjamin-d7ggf",
+      "https://www.tabnews.com.br/marcoshmendes/two-pointers-algoritmo-de-busca",
+      "https://youtu.be/kpr4obcDTq4?si=tJIXhLdCQsOmslek",
+      "https://youtu.be/Jq1uuqdoQl0?si=Datz-l-u6tK41kob"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problem-list/two-pointers/",
+      "https://codeforces.com/problemset/problem/2154/A",
+      "https://codeforces.com/problemset/problem/2143/A",
+      "https://codeforces.com/problemset/problem/2136/B",
+      "https://codeforces.com/problemset/problem/2064/B"
+    ],
+    "descricao": "O Two Pointers é um padrão algorítmico que usa dois índices para percorrer uma sequência (como um array) em uma única passagem. O objetivo é otimizar a complexidade de tempo de soluções tipicamente O(n^2) para O(n) (linear). É essencialmente uma técnica de otimização de laços.",
+    "tags": ["ponteiros", "dois", "dois ponteiros", "two pointers"]
+  },
+  {
+    "nome": "Sliding Window",
+    "dificuldade": "Fácil",
+    "categoria": "Conceito",
+    "prerequisitos": "Array",
+    "definicao": "https://www.geeksforgeeks.org/dsa/window-sliding-technique/",
+    "aulas": [
+      "https://youtu.be/qfKTeiaEigM?si=IPoaZDjkQuEi3ebO",
+      "https://youtu.be/WxRYkxaNZn8?si=9kLF8LrwUDWL7xPk",
+      "https://www.geeksforgeeks.org/dsa/window-sliding-technique/",
+      "https://medium.com/@megha_bh/mastering-the-sliding-window-technique-a-visual-guide-with-mind-map-751cebf936e0"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problem-list/sliding-window/",
+      "https://cses.fi/problemset/task/3220",
+      "https://cses.fi/problemset/task/3221",
+      "https://cses.fi/problemset/task/3405",
+      "https://cses.fi/problemset/task/3222"
+    ],
+    "descricao": "Sliding Window (Janela Deslizante) é um padrão algorítmico que usa dois ponteiros (início e fim) para definir um subconjunto (janela) de dados contíguos (em um array ou string).A janela se move (o ponteiro final avança) e muda de tamanho (o ponteiro inicial avança quando uma condição é violada), permitindo processar a sequência inteira em tempo linear O(n).",
+    "tags": ["sliding", "window", "janela deslizante", "sliding window", "janela"]
+  },
+  {
+    "nome": "Pilhas",
+    "dificuldade": "Fácil",
+    "categoria": "Estrutura de Dados",
+    "prerequisitos": "Array e Lista Ligada",
+    "definicao": "https://pt.wikipedia.org/wiki/Pilha_(inform%C3%A1tica)",
+    "aulas": [
+      "https://www.ime.usp.br/~pf/algoritmos/aulas/pilha.html",
+      "https://youtu.be/2V91Re1czwA?si=Fmbxcz1BTr_U4FZp",
+      "https://youtube.com/playlist?list=PLqJK4Oyr5WSj_Ngpezsatdu5s2G74g9sf&si=KTrnlw5xHKbQ8DYr"
+    ],
+    "exercicios": [],
+    "descricao": "O Two Pointers é um padrão algorítmico que usa dois índices para percorrer uma sequência (como um array) em uma única passagem. O objetivo é otimizar a complexidade de tempo de soluções tipicamente O(n^2) para O(n) (linear). É essencialmente uma técnica de otimização de laços.",
+    "tags": ["pilhas", "stack", "fifo", "lista"]
+  },
+  {
+    "nome": "Algoritmo de Dijkstra",
+    "dificuldade": "Difícil",
+    "categoria": "Algoritmo",
+    "prerequisitos": "Grafos e Fila de Prioridade",
+    "definicao": "https://pt.wikipedia.org/wiki/Algoritmo_de_Dijkstra",
+    "aulas": [
+      "https://noic.com.br/materiais-informatica/curso/menor-caminho/dijkstra/",
+      "https://cp-algorithms.com/graph/dijkstra.html",
+      "https://www.freecodecamp.org/portuguese/news/algoritmo-de-caminho-de-custo-minimo-de-dijkstra-uma-introducao-detalhada-e-visual/",
+      "https://youtu.be/0dc8a-FrzF0?si=Y-quusmavK9o2QUe",
+      "https://youtu.be/aa57NTTahrQ?si=z-bVn8fTHv74L2HS"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problem-list/9id5lube/"
+    ],
+    "descricao": "O Two Pointers é um padrão algorítmico que usa dois índices para percorrer uma sequência (como um array) em uma única passagem. O objetivo é otimizar a complexidade de tempo de soluções tipicamente O(n^2) para O(n) (linear). É essencialmente uma técnica de otimização de laços.",
+    "tags": ["dijkstra", "algoritmo de dijkstra", "grafo", "fila", "fila de prioridade"]
+  },
+  {
+    "nome": "Busca Binária",
+    "dificuldade": "Fácil",
+    "categoria": "Algoritmo",
+    "prerequisitos": "Arrays ordenados",
+    "definicao": "https://pt.wikipedia.org/wiki/Pesquisa_bin%C3%A1ria",
+    "aulas": [
+      "https://youtu.be/2MmGzdi6s0o",
+      "https://www.geeksforgeeks.org/binary-search/"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problems/binary-search/",
+      "https://cses.fi/problemset/task/1083/"
+    ],
+    "descricao": "Busca eficiente em arrays ordenados que reduz o espaço de busca pela metade a cada passo, com complexidade O(log n).",
+    "tags": ["binary search", "pesquisa binária", "busca"]
+  },
+  {
+    "nome": "Merge Sort",
+    "dificuldade": "Médio",
+    "categoria": "Algoritmo",
+    "prerequisitos": "Recursão, Dividir e Conquistar",
+    "definicao": "https://pt.wikipedia.org/wiki/Merge_sort",
+    "aulas": [
+      "https://youtu.be/M5cK2mM1YcI",
+      "https://www.geeksforgeeks.org/merge-sort/"
+    ],
+    "exercicios": [
+      "https://www.spoj.com/problems/SORT/",
+      "https://leetcode.com/problems/sort-an-array/"
+    ],
+    "descricao": "Algoritmo de ordenação por divisão e conquista que tem complexidade O(n log n) no pior caso; estável e bom para grandes volumes de dados.",
+    "tags": ["merge sort", "ordenacao", "dividir e conquistar"]
+  },
+  {
+    "nome": "Quick Sort",
+    "dificuldade": "Médio",
+    "categoria": "Algoritmo",
+    "prerequisitos": "Recursão, Particionamento",
+    "definicao": "https://pt.wikipedia.org/wiki/Quicksort",
+    "aulas": [
+      "https://youtu.be/Hoixgm4-P4M",
+      "https://www.geeksforgeeks.org/quick-sort/"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problems/sort-an-array/",
+      "https://www.hackerrank.com/challenges/quicksort1/problem"
+    ],
+    "descricao": "Ordenação eficiente baseada em particionamento; média O(n log n) mas pior caso O(n^2) sem otimizações. Muito usada pela sua performance prática.",
+    "tags": ["quicksort", "ordenacao", "particionamento"]
+  },
+  {
+    "nome": "Heap (Heap Binário)",
+    "dificuldade": "Médio",
+    "categoria": "Estrutura de Dados",
+    "prerequisitos": "Arrays",
+    "definicao": "https://pt.wikipedia.org/wiki/Heap",
+    "aulas": [
+      "https://youtu.be/t0Cq6tVNRBA",
+      "https://www.geeksforgeeks.org/binary-heap/"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problems/kth-largest-element-in-an-array/",
+      "https://cses.fi/problemset/task/1715/"
+    ],
+    "descricao": "Estrutura de dados para manter o maior (ou menor) elemento em tempo logarítmico por operação; base para filas de prioridade.",
+    "tags": ["heap", "fila de prioridade", "priority queue"]
+  },
+  {
+    "nome": "Fila de Prioridade",
+    "dificuldade": "Médio",
+    "categoria": "Estrutura de Dados",
+    "prerequisitos": "Heap",
+    "definicao": "https://pt.wikipedia.org/wiki/Fila_de_prioridade",
+    "aulas": [
+      "https://youtu.be/0Zb2e5c6sJk",
+      "https://www.geeksforgeeks.org/priority-queue-in-cpp/"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problem-list/priority-queue/",
+      "https://www.codechef.com/problems/PRQUEUE"
+    ],
+    "descricao": "Estrutura abstrata que permite extrair o elemento de maior prioridade; implementada com heaps para operações O(log n).",
+    "tags": ["priority queue", "fila de prioridade", "heap"]
+  },
+  {
+    "nome": "Breadth-First Search (BFS)",
+    "dificuldade": "Fácil",
+    "categoria": "Algoritmo",
+    "prerequisitos": "Grafos, Filas",
+    "definicao": "https://pt.wikipedia.org/wiki/Breadth-first_search",
+    "aulas": [
+      "https://youtu.be/0u78hx-66Xk",
+      "https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problems/number-of-islands/",
+      "https://cses.fi/problemset/task/1685/"
+    ],
+    "descricao": "Percorre grafos em camadas (níveis), útil para encontrar menores caminhos em grafos não ponderados e para travessias em largura.",
+    "tags": ["bfs", "grafos", "largura"]
+  },
+  {
+    "nome": "Depth-First Search (DFS)",
+    "dificuldade": "Fácil",
+    "categoria": "Algoritmo",
+    "prerequisitos": "Grafos, Pilha/Recursão",
+    "definicao": "https://pt.wikipedia.org/wiki/Depth-first_search",
+    "aulas": [
+      "https://youtu.be/7fujbpJ0LB4",
+      "https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problems/clone-graph/",
+      "https://cses.fi/problemset/task/1705/"
+    ],
+    "descricao": "Percorre um grafo profundamente, útil para componentes conexas, ordenação topológica (com modificações) e problemas que exploram caminhos profundos.",
+    "tags": ["dfs", "grafos", "recursao"]
+  },
+  {
+    "nome": "Ordenação Topológica",
+    "dificuldade": "Médio",
+    "categoria": "Algoritmo",
+    "prerequisitos": "Grafos direcionados acíclicos (DAG), BFS/DFS",
+    "definicao": "https://pt.wikipedia.org/wiki/Ordena%C3%A7%C3%A3o_topol%C3%B3gica",
+    "aulas": [
+      "https://youtu.be/aaSFJb1VQbQ",
+      "https://www.geeksforgeeks.org/topological-sorting/"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problems/course-schedule-ii/",
+      "https://cses.fi/problemset/task/1682/"
+    ],
+    "descricao": "Produz uma ordem linear de vértices em um DAG, usada para agendamento de tarefas dependentes e resolução de dependências.",
+    "tags": ["topological sort", "dag", "organização"]
+  },
+  {
+    "nome": "Union-Find (Disjoint Set)",
+    "dificuldade": "Médio",
+    "categoria": "Estrutura de Dados",
+    "prerequisitos": "Arrays, Recursão (opcional)",
+    "definicao": "https://pt.wikipedia.org/wiki/Disjoint-set_data_structure",
+    "aulas": [
+      "https://youtu.be/9Zk2a2w1tYA",
+      "https://cp-algorithms.com/data_structures/disjoint_set_union.html"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problems/number-of-provinces/",
+      "https://cses.fi/problemset/task/1688/"
+    ],
+    "descricao": "Estrutura eficiente para manter partições de um conjunto, suportando união e busca com otimizações (path compression, union by rank).",
+    "tags": ["dsu", "union-find", "disjoint set"]
+  },
+  {
+    "nome": "Tabela Hash (Hash Table)",
+    "dificuldade": "Fácil",
+    "categoria": "Estrutura de Dados",
+    "prerequisitos": "Funções hash básicas",
+    "definicao": "https://pt.wikipedia.org/wiki/Tabela_hash",
+    "aulas": [
+      "https://youtu.be/2Ti5yvumFTU",
+      "https://www.geeksforgeeks.org/hashing-data-structure/"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problem-list/hash-table/",
+      "https://www.hackerrank.com/domains/data-structures/hashmap"
+    ],
+    "descricao": "Estrutura que mapeia chaves a valores para acesso médio O(1); importante entender colisões e estratégias (separate chaining, open addressing).",
+    "tags": ["hash", "hash table", "tabela hash"]
+  },
+  {
+    "nome": "Trie (Prefix Tree)",
+    "dificuldade": "Médio",
+    "categoria": "Estrutura de Dados",
+    "prerequisitos": "Árvores, Strings",
+    "definicao": "https://pt.wikipedia.org/wiki/Trie",
+    "aulas": [
+      "https://youtu.be/yv6wO1r5s0Q",
+      "https://www.geeksforgeeks.org/trie-insert-and-search/"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problems/implement-trie-prefix-tree/",
+      "https://leetcode.com/problems/prefix-and-suffix-search/"
+    ],
+    "descricao": "Árvore especializada para armazenar coleções de strings por prefixo; eficiente para buscas por prefixo e dicionários.",
+    "tags": ["trie", "prefix tree", "strings"]
+  },
+  {
+    "nome": "Árvore Binária de Busca (BST)",
+    "dificuldade": "Médio",
+    "categoria": "Estrutura de Dados",
+    "prerequisitos": "Árvores, Recursão",
+    "definicao": "https://pt.wikipedia.org/wiki/%C3%81rvore_bin%C3%A1ria_de_busca",
+    "aulas": [
+      "https://youtu.be/iH9B0jJ6gT4",
+      "https://www.geeksforgeeks.org/binary-search-tree-data-structure/"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problem-list/binary-search-tree/",
+      "https://cses.fi/problemset/task/1644/"
+    ],
+    "descricao": "Árvore com propriedade de busca: left < node < right. Suporta operações de busca, inserção e remoção em tempo proporcional à altura da árvore.",
+    "tags": ["bst", "arvore", "binary search tree"]
+  },
+  {
+    "nome": "AVL Tree",
+    "dificuldade": "Difícil",
+    "categoria": "Estrutura de Dados",
+    "prerequisitos": "BST, Rotação de Árvores",
+    "definicao": "https://pt.wikipedia.org/wiki/%C3%81rvore_AVL",
+    "aulas": [
+      "https://youtu.be/HvZr6gHk1hA",
+      "https://www.geeksforgeeks.org/avl-tree-set-1-insertion/"
+    ],
+    "exercicios": [
+      "https://www.spoj.com/problems/AVLTREE/",
+      "https://practice.geeksforgeeks.org/problems/avl-tree-insertion/1"
+    ],
+    "descricao": "Árvore BST auto-balanceada que mantém diferença de altura entre subárvores limitada (balance factor), garantindo operações O(log n).",
+    "tags": ["avl", "balanced bst", "rotations"]
+  },
+  {
+    "nome": "Segment Tree",
+    "dificuldade": "Difícil",
+    "categoria": "Estrutura de Dados",
+    "prerequisitos": "Arrays, Recursão",
+    "definicao": "https://cp-algorithms.com/data_structures/segment_tree.html",
+    "aulas": [
+      "https://youtu.be/Ip3X9LOh2dk",
+      "https://www.geeksforgeeks.org/segment-tree-set-1-range-minimum-query/"
+    ],
+    "exercicios": [
+      "https://codeforces.com/problemset/problem/52/C",
+      "https://cses.fi/problemset/task/1651/"
+    ],
+    "descricao": "Estrutura para responder consultas sobre intervalos (somas, mínimos etc.) e atualizações em O(log n); essencial para problemas offline/online de intervalos.",
+    "tags": ["segment tree", "intervals", "range queries"]
+  },
+  {
+    "nome": "Fenwick Tree (BIT)",
+    "dificuldade": "Médio",
+    "categoria": "Estrutura de Dados",
+    "prerequisitos": "Arrays, Noções de Bits",
+    "definicao": "https://cp-algorithms.com/data_structures/fenwick.html",
+    "aulas": [
+      "https://youtu.be/8hly31xKli0",
+      "https://www.geeksforgeeks.org/binary-indexed-tree-or-fenwick-tree/"
+    ],
+    "exercicios": [
+      "https://cses.fi/problemset/task/1648/",
+      "https://codeforces.com/problemset/problem/1359/D"
+    ],
+    "descricao": "Estrutura compacta para somas prefixadas e atualizações pontuais em O(log n); mais simples que segment tree para algumas aplicações.",
+    "tags": ["fenwick", "bit", "binary indexed tree"]
+  },
+  {
+    "nome": "Programação Dinâmica (DP)",
+    "dificuldade": "Difícil",
+    "categoria": "Conceito",
+    "prerequisitos": "Recursão, Memoização, Análise Assintótica",
+    "definicao": "https://pt.wikipedia.org/wiki/Programação_dinâmica",
+    "aulas": [
+      "https://youtu.be/OQ5jsbhAv_M",
+      "https://www.geeksforgeeks.org/dynamic-programming/"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problem-list/dynamic-programming/",
+      "https://cses.fi/problemset/task/1637/"
+    ],
+    "descricao": "Técnica para resolver problemas otimizando soluções recursivas redundantes armazenando resultados parciais (memoização/tabulação). Essencial em entrevistas para otimizar exponenciais para polinomiais.",
+    "tags": ["dp", "programação dinâmica", "memoizacao"]
+  },
+  {
+    "nome": "Algoritmos Guloso (Greedy)",
+    "dificuldade": "Médio",
+    "categoria": "Conceito",
+    "prerequisitos": "Análise assintótica, Prova por troca",
+    "definicao": "https://pt.wikipedia.org/wiki/Algoritmo_guloso",
+    "aulas": [
+      "https://youtu.be/3hEJYCc4j7w",
+      "https://www.geeksforgeeks.org/greedy-algorithm/"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problem-list/greedy/",
+      "https://cses.fi/problemset/task/1636/"
+    ],
+    "descricao": "Estratégia que toma decisões locais ótimas esperando que resultem em uma solução global ótima. Requer provas de correção (troca, matroid).",
+    "tags": ["greedy", "guloso", "heurística"]
+  },
+  {
+    "nome": "Backtracking",
+    "dificuldade": "Médio",
+    "categoria": "Conceito",
+    "prerequisitos": "Recursão, Poda",
+    "definicao": "https://pt.wikipedia.org/wiki/Backtracking",
+    "aulas": [
+      "https://youtu.be/7HNR6tXlOLE",
+      "https://www.geeksforgeeks.org/backtracking-algorithms/"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problem-list/backtracking/",
+      "https://www.hackerrank.com/topics/backtracking"
+    ],
+    "descricao": "Método de tentativa e erro sistemática com retrocesso (backtrack) para explorar soluções, muito usado em problemas de combinação, permutação e puzzles.",
+    "tags": ["backtracking", "recursao", "exhaustiva"]
+  },
+  {
+    "nome": "Manipulação de Bits",
+    "dificuldade": "Médio",
+    "categoria": "Conceito",
+    "prerequisitos": "Operadores bit a bit",
+    "definicao": "https://pt.wikipedia.org/wiki/Operação_bit_a_bit",
+    "aulas": [
+      "https://youtu.be/2NuZK8BI3T8",
+      "https://www.geeksforgeeks.org/bitwise-operators-in-c-cpp/"
+    ],
+    "exercicios": [
+      "https://practice.geeksforgeeks.org/topics/bit-manipulation/",
+      "https://leetcode.com/problem-list/bit-manipulation/"
+    ],
+    "descricao": "Técnicas que usam operações bitwise para otimizar soluções (checks, masks, shifts), úteis para problemas de conjuntos e otimizações micro.",
+    "tags": ["bits", "bitwise", "xor", "and", "shift"]
+  },
+  {
+    "nome": "KMP (Knuth–Morris–Pratt)",
+    "dificuldade": "Difícil",
+    "categoria": "Algoritmo",
+    "prerequisitos": "Strings, Prefix function",
+    "definicao": "https://pt.wikipedia.org/wiki/Algoritmo_de_Knuth-Morris-Pratt",
+    "aulas": [
+      "https://youtu.be/TW9d8aR5GkA",
+      "https://cp-algorithms.com/string/string-searching.html"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problems/implement-strstr/",
+      "https://www.spoj.com/problems/NAJPF/"
+    ],
+    "descricao": "Algoritmo de busca de padrão em texto com complexidade linear O(n + m) usando informações prefixadas para evitar retrocessos redundantes.",
+    "tags": ["kmp", "strings", "buscar padrao"]
+  },
+  {
+    "nome": "Rabin-Karp",
+    "dificuldade": "Médio",
+    "categoria": "Algoritmo",
+    "prerequisitos": "Hashing, Strings",
+    "definicao": "https://pt.wikipedia.org/wiki/Algoritmo_de_Rabin%E2%80%93Karp",
+    "aulas": [
+      "https://youtu.be/4jY0KxodbxA",
+      "https://www.geeksforgeeks.org/rabin-karp-algorithm-for-pattern-searching/"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problems/repeated-substring-pattern/",
+      "https://www.spoj.com/problems/RK/"
+    ],
+    "descricao": "Algoritmo de busca de padrão que usa hashing para comparar substrings rapidamente; eficiente em média, suscetível a colisões (verificação extra necessária).",
+    "tags": ["rabin-karp", "string hashing", "rolling hash"]
+  },
+  {
+    "nome": "Bellman-Ford",
+    "dificuldade": "Difícil",
+    "categoria": "Algoritmo",
+    "prerequisitos": "Grafos, Relaxamento de arestas",
+    "definicao": "https://pt.wikipedia.org/wiki/Algoritmo_de_Bellman-Ford",
+    "aulas": [
+      "https://youtu.be/2Iiy6uQ9IiE",
+      "https://cp-algorithms.com/graph/bellman_ford.html"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problem-list/shortest-paths/",
+      "https://www.spoj.com/problems/BELLMAN/"
+    ],
+    "descricao": "Algoritmo para caminhos mínimos que suporta arestas com peso negativo e detecta ciclos de peso negativo; complexidade O(VE).",
+    "tags": ["bellman-ford", "caminho minimo", "grafos"]
+  },
+  {
+    "nome": "Floyd–Warshall",
+    "dificuldade": "Difícil",
+    "categoria": "Algoritmo",
+    "prerequisitos": "Grafos, Programação dinâmica",
+    "definicao": "https://pt.wikipedia.org/wiki/Algoritmo_de_Floyd%E2%80%93Warshall",
+    "aulas": [
+      "https://youtu.be/HH7C0E5GmU0",
+      "https://cp-algorithms.com/graph/floyd-warshall.html"
+    ],
+    "exercicios": [
+      "https://cses.fi/problemset/task/1672/",
+      "https://www.spoj.com/problems/FLOYD/"
+    ],
+    "descricao": "Algoritmo de programação dinâmica que calcula todas as distâncias mínimas entre pares de vértices em O(n^3); simples e útil para grafos densos pequenos.",
+    "tags": ["floyd-warshall", "all pairs", "dp"]
+  },
+  {
+    "nome": "Dividir e Conquistar (Divide and Conquer)",
+    "dificuldade": "Médio",
+    "categoria": "Conceito",
+    "prerequisitos": "Recursão, Análise assintótica",
+    "definicao": "https://pt.wikipedia.org/wiki/Dividir_para_conquistar",
+    "aulas": [
+      "https://youtu.be/9d2k1mX8p0s",
+      "https://www.geeksforgeeks.org/divide-and-conquer-algorithm-technique/"
+    ],
+    "exercicios": [
+      "https://leetcode.com/problem-list/divide-and-conquer/",
+      "https://cses.fi/problemset/task/2166/"
+    ],
+    "descricao": "Padrão que divide um problema em subproblemas menores, resolve cada um e combina resultados; base de algoritmos como merge sort e quicksort.",
+    "tags": ["divide and conquer", "dnc", "recursao"]
+  },
+  {
+    "nome": "Meet-in-the-Middle",
+    "dificuldade": "Difícil",
+    "categoria": "Conceito",
+    "prerequisitos": "Combinatória, Força Bruta",
+    "definicao": "https://cp-algorithms.com/algebra/meet-in-the-middle.html",
+    "aulas": [
+      "https://youtu.be/8hly31xKli0?list=PL2q4fbVm1Ik6DCzm9XZJbNwyHtHGclC8o",
+      "https://usaco.guide/adv/meet-in-the-middle"
+    ],
+    "exercicios": [
+      "https://cses.fi/problemset/task/1650/",
+      "https://codeforces.com/problemset/problem/1037/D"
+    ],
+    "descricao": "Técnica que divide o domínio em duas metades e combina resultados, reduzindo exponenciais para subexponenciais em alguns problemas de soma/combinação.",
+    "tags": ["meet-in-the-middle", "combinatoria", "forca bruta otimizada"]
+  }
+]

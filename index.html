@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guia de Entrevistas Técnicas</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body id="top">
+  <header>
+    <div class="header-top">
+      <div>
+        <h1>Guia de Preparação Técnica</h1>
+        <p>Prepare-se para suas entrevistas de forma eficiente.</p>
+      </div>
+
+      <div class="header-button">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Alternar modo" aria-pressed="false" title="Alternar tema">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" fill="currentColor"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="filters">
+      <div class="search">
+        <input type="text" placeholder="Buscar item" id="search-input" />
+        <button class="search-btn" type="button" aria-label="Pesquisar" onclick="iniciarBusca()">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M21 21l-4.35-4.35" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="11" cy="11" r="6" stroke="#555" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <div class="select-filters">
+        <div>
+          <label for="filter-dificuldade">Dificuldade:</label>
+          <select id="filter-dificuldade" name="dificuldade">
+            <option value="">Todas</option>
+            <option value="facil">Fácil</option>
+            <option value="medio">Médio</option>
+            <option value="dificil">Difícil</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="filter-categoria">Categoria:</label>
+          <select id="filter-categoria" name="categoria">
+            <option value="">Todas</option>
+            <option value="algoritmos">Algoritmos</option>
+            <option value="estruturas">Estruturas de Dados</option>
+            <option value="conceito">Conceito</option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="card-container">
+      
+    </section>
+  </main>
+
+  <footer>
+    <div class="site-footer">
+      <div class="footer-content">
+        <p>© 2025 Guia de Preparação Técnica — By Washington Silva</p>
+        <div class="socials">
+          <a class="social" href="https://github.com/washtdev" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <!-- GitHub SVG -->
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor" width="18" height="18">
+              <path d="M12 .5C5.7.5.6 5.6.6 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.2.8-.5v-2c-3.2.7-3.8-1.5-3.8-1.5-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.1 1.7 1.1 1 .1.8 1.8.8 1.8.9 1.5 2.4 1.1 3 .8.1-.7.4-1.1.8-1.4-2.6-.3-5.3-1.3-5.3-5.8 0-1.3.4-2.3 1.1-3.1-.1-.3-.5-1.6.1-3.4 0 0 .9-.3 3 .1.9-.3 1.9-.5 2.9-.5s2 .2 2.9.5c2.1-.4 3-.1 3-.1.6 1.8.2 3.1.1 3.4.7.8 1.1 1.8 1.1 3.1 0 4.5-2.7 5.5-5.3 5.8.4.3.8.9.8 1.9v2.8c0 .3.2.6.8.5 4.6-1.5 7.9-5.8 7.9-10.9C23.4 5.6 18.3.5 12 .5z"/>
+            </svg>
+          </a>
+
+          <a class="social" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <!-- LinkedIn SVG -->
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor" width="18" height="18">
+              <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1 4.98 2.12 4.98 3.5zM.5 8.5h4v14h-4v-14zM9 8.5h3.78v2h.05c.53-1 1.83-2 3.77-2 4.03 0 4.78 2.65 4.78 6.09V22.5h-4v-6.55c0-1.56-.03-3.56-2.17-3.56-2.17 0-2.5 1.7-2.5 3.45V22.5h-4v-14z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top button -->
+  <button id="back-to-top" class="back-to-top" aria-label="Voltar ao topo" title="Voltar ao topo">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M12 5l-7 7h4v7h6v-7h4l-7-7z" fill="currentColor"/>
+    </svg>
+  </button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
