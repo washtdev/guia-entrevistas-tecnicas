@@ -2,7 +2,7 @@
 
 **Um guia enxuto e prático para estudar algoritmos e estruturas para entrevistas técnicas.**
 
-![Screenshot do Projeto](./screenshot.png)
+![Screenshot do Projeto](./screenshot.jpg)
 
 **Acessar:** [LINK DO PROJETO](https://washtdev.github.io/guia-entrevistas-tecnicas/)
 
